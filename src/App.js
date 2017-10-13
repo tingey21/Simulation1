@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import Shelves from './components/Shelves';
+import router from './router.js'
 
 
 class App extends Component {
   render() {
     return (
-      <Shelves/>
+      <div>
+        {router}
+      </div>
     )
   }
 }
