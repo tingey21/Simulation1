@@ -10,12 +10,13 @@
     height:80px;
     background:#ab2a19; 
     padding-top:50px;
+    display: inline-block;
 }
 
 .app_logo{
  background-image: url('../assets/logo.png');
- width:69px;
- height:69px;
+ width:68px;
+ height:68px;
  float:left;
  margin-left:450px;
 }
@@ -35,13 +36,13 @@ display:inline-block;
 
 }
 .shelves{
- width:600px;
- height:80px;  
+ width:550px;
+ height:70px;  
  background: #d34735;
  border-radius:10px;
  text-align:left; 
  padding-top:15px;
-padding-left:30px;
- margin:30px;
+ padding-left:50px;
+ margin:50px;
  margin-left:445px;
 }
