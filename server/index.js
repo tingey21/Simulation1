@@ -3,8 +3,8 @@ const express = require('express')
       bodyParser = require('body-parser'),
       cors = require('cors'),
       massive = require('massive'),
-      products_controller = require('./package_controller');
-
+      products_controller = require('./products_controller');
+  
       const app = express();
       app.use( bodyParser.json());
       app.use( cors());
@@ -15,6 +15,7 @@ const express = require('express')
           }
         );
 
+        app.get('/test', products_controller.getAllShelves);
 
 
 
