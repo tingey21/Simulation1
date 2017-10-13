@@ -6,15 +6,15 @@ export default class Shelves extends Component {
     render() {
         return (
             <div>
-                {/* <Link to='/bins/:id'>
-                <h2>This is where our shelves will display </h2>
-                </Link> */}
-                <nav className='main_header'>
+
+                <header className='main_header'>
                     <div className='app_logo'></div>
-                    <div> Shelfie</div>
-                </nav>
-                <section>
-                    <div>Shelf A</div>
+                    <div className='header_text'> Shelfie</div>
+                </header>
+                <section className='shelf_container'>
+                    <Link to='/bins/:id'>
+                        <div className='shelves'>Shelf</div>
+                    </Link>
                 </section>
             </div>
         )
