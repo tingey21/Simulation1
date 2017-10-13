@@ -1,1 +1,0 @@
-Select * from shelves Order by shelf_name;n
