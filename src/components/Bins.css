@@ -1,10 +1,56 @@
-.rightNav {
-width: 100%;
-height: 120px;
-background: #ab2a19 
+.bins_body{
+   width:100%; 
+   font-family:'Open-Sans';
+   color:white;
+   font-size:40px;
+   background: #d8d8d8;
+   border:yellow solid 3px;
 }
-.leftNav {
-width: 100%;
-height: 120px;
-background: #ab2a19
+.mainNav{
+    width:100%;
+    height:80px;
+    background:#ab2a19; 
+    padding-top:50px;
+    border:4px dotted black;
+}
+.rightNav {
+    width:500px;
+    height:100px;
+    background:#d34735; 
+    float:left;
+}
+/* .app_logo{
+ background-image: url('../assets/logo.png');
+ width:68px;
+ height:68px;
+ float:left;
+} */
+
+.bin_detail_container{
+    width:100%;
+    height:900px;
+    display:inline-block;
+}
+.bins{
+ width:550px;
+ height:70px;  
+ background: #d34735;
+ border-radius:10px;
+ text-align:left; 
+ padding-top:15px;
+ padding-left:50px;
+ margin:50px;
+ margin-left:445px;  
+}
+.inventory_bin{
+ width:550px;
+ height:70px;  
+ background: #ffb8af;
+ border-radius:10px;
+ text-align:left; 
+ padding-top:15px;
+ padding-left:50px;
+ margin:50px;
+ margin-left:445px;  
+ color:black;
 }

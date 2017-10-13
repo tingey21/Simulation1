@@ -13,7 +13,7 @@ export default class Shelves extends Component {
                 </header>
                 <section className='shelf_container'>
                     <Link to='/bins/:id'>
-                        <div className='shelves'>Shelf</div>
+                    <div className='shelves'>Shelf</div>
                     </Link>
                     <div className='shelves'>Shelf</div>
                     <div className='shelves'>Shelf</div>
