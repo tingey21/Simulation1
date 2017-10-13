@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import './BinDetail.css';
 
 export default class BinDetail extends Component{
     render(){
