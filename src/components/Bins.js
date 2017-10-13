@@ -7,10 +7,10 @@ export default class Bins extends Component {
         return (
             <div className='bins_body'>
                 <header className='mainNav'>
-                    <div>
-                        <div className='app_logo'></div>
+                    <div className='leftNav'>
+                         <div className='app_logo'></div> 
                     </div>
-                    <div className='rightNav'>Shelf </div>
+                    <div className='rightNav'></div>
                 </header>
                 <section className='bin_detail_container'>
                     <Link to='/bins/detail'>
