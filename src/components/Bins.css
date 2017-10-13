@@ -4,30 +4,30 @@
    color:white;
    font-size:40px;
    background: #d8d8d8;
-   border:yellow solid 3px;
 }
 .mainNav{
     width:100%;
     height:120px;
-    /* display: inline-block; */
 }
  
 .leftNav{
-width:30%;
+width:20%;
 height:100%;
 float:left;
-background:#ab2a19; 
+background:#ab2a19;
 }
- .app_logo{
+ .app_logo2{
  background-image: url('../assets/logo.png');
  width:68px;
  height:68px;
- float:left; 
+ margin-top:25px;
+ margin-left:110px;
 }
 .rightNav {
     width:100%;
-    height:100%;
+    height:80%;
     background:#d34735;
+    padding-top:25px;
 }
 .bin_detail_container{
     width:100%;

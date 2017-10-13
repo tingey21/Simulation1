@@ -8,9 +8,9 @@ export default class Bins extends Component {
             <div className='bins_body'>
                 <header className='mainNav'>
                     <div className='leftNav'>
-                         <div className='app_logo'></div> 
+                         <div className='app_logo2'></div> 
                     </div>
-                    <div className='rightNav'></div>
+                    <div className='rightNav'>Shelf</div>
                 </header>
                 <section className='bin_detail_container'>
                     <Link to='/bins/detail'>
